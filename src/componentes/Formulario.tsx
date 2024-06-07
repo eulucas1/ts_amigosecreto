@@ -28,7 +28,7 @@ const Formulario = () => {
                 value={nome}
                 onChange={evento => setNome(evento.target.value)}
                 type="text"
-                placeholder="Insira os nomes dos participantes"
+                placeholder="Insira os nomes dos amigos (min. 3)"
             />
             <button disabled={!nome}>Adicionar</button>
         </div>

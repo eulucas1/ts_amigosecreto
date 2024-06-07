@@ -7,7 +7,7 @@ const Configuracao = () => {
     return (
         <Card>
             <section>
-                <h2>Sorteador Amigo Secreto!</h2>
+                <h2>Sorteador de Amigo Secreto</h2>
                 <Formulario />
                 <ListaParticipantes />
                 <Rodape />

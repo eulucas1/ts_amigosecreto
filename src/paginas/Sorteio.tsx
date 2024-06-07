@@ -24,7 +24,7 @@ const Sorteio = () => {
 
     return (<Card>
         <section className="sorteio">
-            <h2>Quem vai tirar o papelzinho?</h2>
+        <h2>Sorteador de Amigo Secreto</h2>
             <form onSubmit={sortear}>
                 <select
                     required
